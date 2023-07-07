@@ -77,7 +77,7 @@
     <div class="container">
         <h1 align="center">Create Induction</h1>
           <!-- Add the spinner element -->
-        <div id="spinner" class="spinner"></div>
+      
         <%
             // Create a SimpleDateFormat object with the desired date format
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
@@ -132,12 +132,7 @@
     </div>
    
       
-<!-- JavaScript code to show the spinner during page load -->
-<script>
-    window.addEventListener('load', function() {
-        var spinner = document.getElementById('spinner');
-        spinner.style.display = 'block'; // Show the spinner
-    });
-</script>
+
+
 </body>
 </html>

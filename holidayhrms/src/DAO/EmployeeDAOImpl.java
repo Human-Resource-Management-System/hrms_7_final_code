@@ -30,7 +30,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	@Override
 	@Transactional
 	public List<Employee> getAllEmployees(HttpSession session) {
-		logger.info("fetching list of all employees ");
+		logger.info("fetching list of all employees under a hr ");
 
 		int adminId = (int) session.getAttribute("adminId");
 		String query = "SELECT e FROM Employee e WHERE e.emplHrEmplId = :adminId";
@@ -101,5 +101,13 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		logger.info(" Retrieving an employee by id");
 
 		return entityManager.find(Employee.class, employeeId);
+	}
+
+	@Override
+	public List<Employee> getAllEmployees() {
+
+		logger.info("fetching list of all employees ");
+		String query = "SELECT e FROM Employee e";
+		return entityManager.createQuery(query, Employee.class).getResultList();
 	}
 }

@@ -125,7 +125,7 @@
       display: flex;
       flex-direction: column;
       align-items: stretch;
-     
+      background:white;
       height: 100vh;
       padding: 20px;
       
@@ -137,6 +137,40 @@
       
      
     }
+    
+    #spinner-container {
+  display: none; /* Initially hide the spinner */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 9999; /* Ensure the spinner is on top */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
     
     </style>
    
@@ -150,6 +184,10 @@
     
     
  <script>
+ 
+
+	 
+ 
     function getHolidays() {
     	  $.ajax({
     	    type: "GET",
@@ -247,13 +285,18 @@
     	  });
     	}
     
+    
     function getInductions() {
-    	  $.ajax({
+    	 
+    	showSpinner(); 
+         $("#msg").html('<div class="loading-spinner"></div>');
+    	$.ajax({
     	    type: "GET",
     	    url: "inductioninsert",
     	    data: {},
     	    success: function(response) {
-    	      var containerDiv = $("#main");
+    	    	 $("#msg").empty();
+    	    	var containerDiv = $("#main");
     	      containerDiv.html(response);
     	    },
     	    error: function() {
@@ -261,6 +304,10 @@
     	    }
     	  });
     	}
+    
+    $(document).on('click', 'li.item a', function() {
+    	showSpinner(); 
+    	});
     
     function viewInductions() {
   	  $.ajax({
@@ -373,7 +420,7 @@
     function generatePayroll() {
     	  $.ajax({
     	    type: "GET",
-    	    url: "getemppayroll",
+    	    url: "getemppayrolls",
     	   
     	    success: function(response) {
     	      var containerDiv = $("#main");
@@ -636,6 +683,40 @@
     			    }
     			  });
     			}
+    			
+    			 
+    			 $(document).on("click", "a.view-links", function(e) {
+    				    e.preventDefault();
+    				    var induction = $(this).data("induction");
+    				    loadInductionDetails(induction);
+    				  });
+
+    				  function loadInductionDetails(induction) {
+    				    var url = "getinductiondetails?id=" + induction;
+
+    				    $.ajax({
+    				      url: url,
+    				      type: "GET",
+    				      success: function(response) {
+    				    	  var containerDiv = $(".main");
+    		    		      containerDiv.html(response);
+    				      },
+    				      error: function(xhr, status, error) {
+    				        console.log(error);
+    				      }
+    				    });
+    				  }
+    				  function goBack() {
+    					  window.location.href = document.referrer;
+    					}
+    				  
+    				  function showSpinner() {
+    					  $('#main #spinner-container').css('display', 'flex');
+    					}
+
+
+    				        
+ 
 
  </script>   
   </head>
@@ -804,8 +885,15 @@
    <!--  <main class="main" id="main"  height="600px" width="600px">
       <h1>Welcome Admin to Pennant Technologies....</h1>
     </main> -->
-    
+ <center>
+  <div id="spinner-container" style="display: none;">
+    <div id="spinner"></div>
+  </div>
+</center>
+ 
 </div>
+
+   
 
        <script>
        const sidebar = document.querySelector(".sidebar");

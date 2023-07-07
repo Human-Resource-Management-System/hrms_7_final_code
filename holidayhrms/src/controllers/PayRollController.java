@@ -2,11 +2,14 @@ package controllers;
 
 import java.sql.Timestamp;
 import java.time.LocalDate;
+import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +23,7 @@ import DAO_Interfaces.EmployeeDAO;
 import DAO_Interfaces.PayRollDAO;
 import models.Employee;
 import models.EmployeePayslip;
+import models.input.output.EmployeeOutput;
 import models.input.output.EmployeePayRollInputModel;
 import models.input.output.EmployeePayRollOutputModel;
 import service_interfaces.MailServiceInterface;
@@ -35,12 +39,14 @@ public class PayRollController {
 	private EmployeePayslip empPaySlip;
 	private PayRollDAO payrollDAO;
 	private MailServiceInterface mailService;
+	private final EmployeeDAO emp;
+	private final ModelMapper modelMapper;
 	private static final Logger logger = LoggerFactory.getLogger(PayRollController.class);
 
 	@Autowired
 	PayRollController(PayRollService payRollservice, EmployeeDAO ed, EmployeePayRollOutputModel payRollOutput,
 			EmployeePayRollInputModel payRollInput, EmployeePayslip empPaySlip, PayRollDAO payrollDAO,
-			MailServiceInterface mailService) {
+			MailServiceInterface mailService, EmployeeDAO emp, ModelMapper mp) {
 		this.payRollservice = payRollservice;
 		this.ed = ed;
 		this.mailService = mailService;
@@ -48,12 +54,27 @@ public class PayRollController {
 		this.payRollInput = payRollInput;
 		this.empPaySlip = empPaySlip;
 		this.payrollDAO = payrollDAO;
+		this.emp = emp;
+		modelMapper = mp;
 	}
 
 	// get admin side pay roll form to select employee id and month
 	@RequestMapping(value = "/getemppayroll", method = RequestMethod.GET)
 	public String getPayRoll(Model model) {
 		logger.info("Entered into payroll at admin side");
+
+		return "payrollemp";
+
+	}
+
+	@RequestMapping(value = "/getemppayrolls", method = RequestMethod.GET)
+	public String generatePayRoll(Model model) {
+		logger.info("Entered into payroll at admin side");
+		List<Employee> employees = emp.getAllEmployees();
+		List<EmployeeOutput> employeeOutputs = modelMapper.map(employees, new TypeToken<List<EmployeeOutput>>() {
+		}.getType());
+		model.addAttribute("employeeList", employeeOutputs);
+
 		return "payrollemp";
 
 	}

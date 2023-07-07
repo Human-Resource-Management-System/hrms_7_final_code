@@ -15,7 +15,7 @@
         List<Induction> inductions = (List<Induction>) request.getAttribute("indid");
         Integer i = (Integer) request.getAttribute("ID");
     %>
-    <h1>Induction-<%= i %> Details </h1>
+    <h1>Induction-<%= i %> Details </h1><br>
     
     <% if (inductions != null && !inductions.isEmpty()) { %>
         <table>
@@ -41,7 +41,10 @@
     <% } else { %>
         <p class="no-inductions">No inductions found.</p>
     <% } %>
-        <button onclick="goBack()">Back</button>
+    <br><br>
+    <div>
+        <button type="button" onclick="goBack()">Back</button>
+       </div> 
 </body>
 </html>
 

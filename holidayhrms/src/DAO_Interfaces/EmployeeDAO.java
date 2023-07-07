@@ -32,4 +32,8 @@ public interface EmployeeDAO {
 
 	// To get employee details by id
 	Employee getEmployee(int employeeId);
+
+	// To display list of employees
+	List<Employee> getAllEmployees();
+
 }

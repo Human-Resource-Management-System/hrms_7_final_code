@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.TestInductionDAOImpl">
+      <class name="test.CandidateControllerTest">
         <methods>
+          <include name="testShowCandidateList"/>
           <include name="setup"/>
-          <include name="testUpdateEmploymentOfferStatus"/>
-          <include name="testGetEmploymentInductionDocCountMap"/>
-          <include name="testGetEmployeeOfferedIdMaxMap"/>
+          <include name="testListOfCandidatesAfterInsertion"/>
+          <include name="testGetCandidateDetails"/>
         </methods>
-      </class> <!-- test.TestInductionDAOImpl -->
+      </class> <!-- test.CandidateControllerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

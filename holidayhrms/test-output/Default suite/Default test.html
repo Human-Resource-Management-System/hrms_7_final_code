@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 04 16:40:17 IST 2023</td>
+<td>Started on:</td><td>Sun Jul 09 11:08:12 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1886 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1347 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,20 +76,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.TestInductionDAOImpl.testUpdateEmploymentOfferStatus()'><b>testUpdateEmploymentOfferStatus</b><br>Test class: test.TestInductionDAOImpl</td>
-<td><div><pre>org.mockito.exceptions.base.MockitoException: 
-Only void methods can doNothing()!
-Example of correct use of doNothing():
-    doNothing().
-    doThrow(new RuntimeException())
-    .when(mock).someVoidMethod();
-Above means:
-someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
-	at test.TestInductionDAOImpl.testUpdateEmploymentOfferStatus(TestInductionDAOImpl.java:121)
+<td title='test.CandidateControllerTest.testGetCandidateDetails()'><b>testGetCandidateDetails</b><br>Test class: test.CandidateControllerTest</td>
+<td><div><pre>Argument(s) are different! Wanted:
+modelMapper.map(
+    &lt;any List&gt;,
+    &lt;any&gt;
+);
+-&gt; at test.CandidateControllerTest.testGetCandidateDetails(CandidateControllerTest.java:77)
+Actual invocation has different arguments:
+modelMapper.map(
+    models.Candidate@1effd53c,
+    class models.input.output.CandidateIO
+);
+-&gt; at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
+
+	at test.CandidateControllerTest.testGetCandidateDetails(CandidateControllerTest.java:77)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
@@ -98,7 +103,7 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -114,20 +119,25 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace233309087", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace233309087'><pre>org.mockito.exceptions.base.MockitoException: 
-Only void methods can doNothing()!
-Example of correct use of doNothing():
-    doNothing().
-    doThrow(new RuntimeException())
-    .when(mock).someVoidMethod();
-Above means:
-someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
-	at test.TestInductionDAOImpl.testUpdateEmploymentOfferStatus(TestInductionDAOImpl.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1845137754", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1845137754'><pre>Argument(s) are different! Wanted:
+modelMapper.map(
+    &lt;any List&gt;,
+    &lt;any&gt;
+);
+-&gt; at test.CandidateControllerTest.testGetCandidateDetails(CandidateControllerTest.java:77)
+Actual invocation has different arguments:
+modelMapper.map(
+    models.Candidate@1effd53c,
+    class models.input.output.CandidateIO
+);
+-&gt; at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
+
+	at test.CandidateControllerTest.testGetCandidateDetails(CandidateControllerTest.java:77)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
@@ -136,7 +146,7 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -154,16 +164,16 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test.TestInductionDAOImpl@7fe7c640</td></tr>
+<td>test.CandidateControllerTest@b91d8c4</td></tr>
 <tr>
-<td title='test.TestInductionDAOImpl.testGetEmployeeOfferedIdMaxMap()'><b>testGetEmployeeOfferedIdMaxMap</b><br>Test class: test.TestInductionDAOImpl</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;javax.persistence.TypedQuery.setParameter(String, Object)&quot; because &quot;typedQuery&quot; is null
-	at DAO.InductionDAOImpl.getCountOfOfferIdentity(InductionDAOImpl.java:108)
-	at test.TestInductionDAOImpl.testGetEmployeeOfferedIdMaxMap(TestInductionDAOImpl.java:154)
+<td title='test.CandidateControllerTest.testListOfCandidatesAfterInsertion()'><b>testListOfCandidatesAfterInsertion</b><br>Test class: test.CandidateControllerTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.springframework.validation.BindingResult.hasErrors()&quot; because &quot;bindingResult&quot; is null
+	at controllers.CandidateController.listOfCandidatesAfterInsertion(CandidateController.java:85)
+	at test.CandidateControllerTest.testListOfCandidatesAfterInsertion(CandidateControllerTest.java:101)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
@@ -172,7 +182,7 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -188,14 +198,14 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace173431997", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace173431997'><pre>java.lang.NullPointerException: Cannot invoke &quot;javax.persistence.TypedQuery.setParameter(String, Object)&quot; because &quot;typedQuery&quot; is null
-	at DAO.InductionDAOImpl.getCountOfOfferIdentity(InductionDAOImpl.java:108)
-	at test.TestInductionDAOImpl.testGetEmployeeOfferedIdMaxMap(TestInductionDAOImpl.java:154)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1699511597", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1699511597'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.springframework.validation.BindingResult.hasErrors()&quot; because &quot;bindingResult&quot; is null
+	at controllers.CandidateController.listOfCandidatesAfterInsertion(CandidateController.java:85)
+	at test.CandidateControllerTest.testListOfCandidatesAfterInsertion(CandidateControllerTest.java:101)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
@@ -204,7 +214,7 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -222,16 +232,27 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test.TestInductionDAOImpl@7fe7c640</td></tr>
+<td>test.CandidateControllerTest@b91d8c4</td></tr>
 <tr>
-<td title='test.TestInductionDAOImpl.testGetEmploymentInductionDocCountMap()'><b>testGetEmploymentInductionDocCountMap</b><br>Test class: test.TestInductionDAOImpl</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;javax.persistence.TypedQuery.setParameter(String, Object)&quot; because &quot;typedQuery&quot; is null
-	at DAO.InductionDAOImpl.getEmploymentInductionDocCount(InductionDAOImpl.java:131)
-	at test.TestInductionDAOImpl.testGetEmploymentInductionDocCountMap(TestInductionDAOImpl.java:193)
+<td title='test.CandidateControllerTest.testShowCandidateList()'><b>testShowCandidateList</b><br>Test class: test.CandidateControllerTest</td>
+<td><div><pre>Argument(s) are different! Wanted:
+modelMapper.map(
+    &lt;any List&gt;,
+    &lt;any&gt;
+);
+-&gt; at test.CandidateControllerTest.testShowCandidateList(CandidateControllerTest.java:58)
+Actual invocation has different arguments:
+modelMapper.map(
+    models.Candidate@1effd53c,
+    class models.input.output.CandidateIO
+);
+-&gt; at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
+
+	at test.CandidateControllerTest.testShowCandidateList(CandidateControllerTest.java:58)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
@@ -240,7 +261,7 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -256,14 +277,25 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1289454852", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1289454852'><pre>java.lang.NullPointerException: Cannot invoke &quot;javax.persistence.TypedQuery.setParameter(String, Object)&quot; because &quot;typedQuery&quot; is null
-	at DAO.InductionDAOImpl.getEmploymentInductionDocCount(InductionDAOImpl.java:131)
-	at test.TestInductionDAOImpl.testGetEmploymentInductionDocCountMap(TestInductionDAOImpl.java:193)
+</pre></div><a href='#' onClick='toggleBox("stack-trace416878771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace416878771'><pre>Argument(s) are different! Wanted:
+modelMapper.map(
+    &lt;any List&gt;,
+    &lt;any&gt;
+);
+-&gt; at test.CandidateControllerTest.testShowCandidateList(CandidateControllerTest.java:58)
+Actual invocation has different arguments:
+modelMapper.map(
+    models.Candidate@1effd53c,
+    class models.input.output.CandidateIO
+);
+-&gt; at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
+
+	at test.CandidateControllerTest.testShowCandidateList(CandidateControllerTest.java:58)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
@@ -272,7 +304,7 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -290,7 +322,7 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test.TestInductionDAOImpl@7fe7c640</td></tr>
+<td>test.CandidateControllerTest@b91d8c4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -301,108 +333,10 @@ someVoidMethod() does nothing the 1st time but throws an exception the 2nd time 
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.TestInductionDAOImpl.testGetAllInductions()'><b>testGetAllInductions</b><br>Test class: test.TestInductionDAOImpl</td>
+<td title='test.CandidateControllerTest.testAddCandidates()'><b>testAddCandidates</b><br>Test class: test.CandidateControllerTest</td>
 <td></td>
 <td>0</td>
-<td>test.TestInductionDAOImpl@7fe7c640</td></tr>
-<tr>
-<td title='test.TestInductionDAOImpl.testGetEmploymentInductionDocCount()'><b>testGetEmploymentInductionDocCount</b><br>Test class: test.TestInductionDAOImpl</td>
-<td></td>
-<td>0</td>
-<td>test.TestInductionDAOImpl@7fe7c640</td></tr>
-<tr>
-<td title='test.TestInductionDAOImpl.testGetInductionById()'><b>testGetInductionById</b><br>Test class: test.TestInductionDAOImpl</td>
-<td></td>
-<td>0</td>
-<td>test.TestInductionDAOImpl@7fe7c640</td></tr>
-<tr>
-<td title='test.TestInductionDAOImpl.testGetAllEmploymentOffers()'><b>testGetAllEmploymentOffers</b><br>Test class: test.TestInductionDAOImpl</td>
-<td></td>
-<td>0</td>
-<td>test.TestInductionDAOImpl@7fe7c640</td></tr>
-<tr>
-<td title='test.TestInductionDAOImpl.testInsertEmployeeWithNullInduction()'><b>testInsertEmployeeWithNullInduction</b><br>Test class: test.TestInductionDAOImpl</td>
-<td><div><pre>exceptions.CustomException: Custom exception message
-	at DAO.InductionDAOImpl.insertEmployee(InductionDAOImpl.java:51)
-	at test.TestInductionDAOImpl.testInsertEmployeeWithNullInduction(TestInductionDAOImpl.java:82)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1943266645", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1943266645'><pre>exceptions.CustomException: Custom exception message
-	at DAO.InductionDAOImpl.insertEmployee(InductionDAOImpl.java:51)
-	at test.TestInductionDAOImpl.testInsertEmployeeWithNullInduction(TestInductionDAOImpl.java:82)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>test.TestInductionDAOImpl@7fe7c640</td></tr>
-<tr>
-<td title='test.TestInductionDAOImpl.testGetCountOfOfferIdentity()'><b>testGetCountOfOfferIdentity</b><br>Test class: test.TestInductionDAOImpl</td>
-<td></td>
-<td>0</td>
-<td>test.TestInductionDAOImpl@7fe7c640</td></tr>
-<tr>
-<td title='test.TestInductionDAOImpl.testGetIndex()'><b>testGetIndex</b><br>Test class: test.TestInductionDAOImpl</td>
-<td></td>
-<td>0</td>
-<td>test.TestInductionDAOImpl@7fe7c640</td></tr>
-<tr>
-<td title='test.TestInductionDAOImpl.testInsertEmployee()'><b>testInsertEmployee</b><br>Test class: test.TestInductionDAOImpl</td>
-<td></td>
-<td>0</td>
-<td>test.TestInductionDAOImpl@7fe7c640</td></tr>
+<td>test.CandidateControllerTest@b91d8c4</td></tr>
 </table><p>
 </body>
 </html>

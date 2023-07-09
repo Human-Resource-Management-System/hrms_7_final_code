@@ -28,9 +28,9 @@ import DAO_Interfaces.ApplyPermissionDAO;
 import controllers.PermissionsController;
 import models.ApplyPermissions;
 import models.Employee;
-import models.PermissionAdminModel;
 import models.PermissionCompositeKey;
-import models.PermissionInputModel;
+import models.input.output.PermissionAdminModel;
+import models.input.output.PermissionInputModel;
 
 public class PermissionsControllerTest {
 

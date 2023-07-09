@@ -1,81 +1,1295 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="113" passed="104" failed="9" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-09T15:52:54 IST" name="Default suite" finished-at="2023-07-09T15:52:57 IST" duration-ms="2985">
+  <suite started-at="2023-07-09T18:21:43 IST" name="Default suite" finished-at="2023-07-09T18:21:55 IST" duration-ms="11825">
     <groups>
     </groups>
-    <test started-at="2023-07-09T15:52:54 IST" name="Default test" finished-at="2023-07-09T15:52:57 IST" duration-ms="2985">
-      <class name="test.HolidayDAOImplTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:54 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="2598" status="PASS">
+    <test started-at="2023-07-09T18:21:43 IST" name="Default test" finished-at="2023-07-09T18:21:55 IST" duration-ms="11825">
+      <class name="test.TestReferenceDocumentDAOImpl">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestReferenceDocumentDAOImpl@a85644c]" started-at="2023-07-09T18:21:43 IST" name="setup" finished-at="2023-07-09T18:21:47 IST" duration-ms="4046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDeleteById()[pri:0, instance:test.TestReferenceDocumentDAOImpl@a85644c]" started-at="2023-07-09T18:21:47 IST" name="testDeleteById" finished-at="2023-07-09T18:21:48 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteById -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestReferenceDocumentDAOImpl@a85644c]" started-at="2023-07-09T18:21:48 IST" name="setup" finished-at="2023-07-09T18:21:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFindById()[pri:0, instance:test.TestReferenceDocumentDAOImpl@a85644c]" started-at="2023-07-09T18:21:48 IST" name="testFindById" finished-at="2023-07-09T18:21:48 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestReferenceDocumentDAOImpl@a85644c]" started-at="2023-07-09T18:21:48 IST" name="setup" finished-at="2023-07-09T18:21:48 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetDOCIndex()[pri:0, instance:test.TestReferenceDocumentDAOImpl@a85644c]" started-at="2023-07-09T18:21:48 IST" name="testGetDOCIndex" finished-at="2023-07-09T18:21:48 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDOCIndex -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestReferenceDocumentDAOImpl@a85644c]" started-at="2023-07-09T18:21:48 IST" name="setup" finished-at="2023-07-09T18:21:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetIndex()[pri:0, instance:test.TestReferenceDocumentDAOImpl@a85644c]" started-at="2023-07-09T18:21:48 IST" name="testGetIndex" finished-at="2023-07-09T18:21:48 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetIndex -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestReferenceDocumentDAOImpl@a85644c]" started-at="2023-07-09T18:21:48 IST" name="setup" finished-at="2023-07-09T18:21:48 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSave()[pri:0, instance:test.TestReferenceDocumentDAOImpl@a85644c]" started-at="2023-07-09T18:21:48 IST" name="testSave" finished-at="2023-07-09T18:21:48 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSave -->
+      </class> <!-- test.TestReferenceDocumentDAOImpl -->
+      <class name="test.CandidateControllerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CandidateControllerTest@562919fe]" started-at="2023-07-09T18:21:49 IST" name="setup" finished-at="2023-07-09T18:21:49 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddCandidates()[pri:0, instance:test.CandidateControllerTest@562919fe]" started-at="2023-07-09T18:21:49 IST" name="testAddCandidates" finished-at="2023-07-09T18:21:49 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCandidates -->
+        <test-method signature="testGetCandidateDetails()[pri:0, instance:test.CandidateControllerTest@562919fe]" started-at="2023-07-09T18:21:50 IST" name="testGetCandidateDetails" finished-at="2023-07-09T18:21:50 IST" duration-ms="104" status="FAIL">
+          <exception class="org.mockito.exceptions.verification.ArgumentsAreDifferent">
+            <message>
+              <![CDATA[
+Argument(s) are different! Wanted:
+modelMapper.map(
+    <any List>,
+    <any>
+);
+-> at test.CandidateControllerTest.testGetCandidateDetails(CandidateControllerTest.java:77)
+Actual invocation has different arguments:
+modelMapper.map(
+    models.Candidate@767d9b9,
+    class models.input.output.CandidateIO
+);
+-> at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Argument(s) are different! Wanted:
+modelMapper.map(
+    <any List>,
+    <any>
+);
+-> at test.CandidateControllerTest.testGetCandidateDetails(CandidateControllerTest.java:77)
+Actual invocation has different arguments:
+modelMapper.map(
+    models.Candidate@767d9b9,
+    class models.input.output.CandidateIO
+);
+-> at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
+
+at test.CandidateControllerTest.testGetCandidateDetails(CandidateControllerTest.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.mockito.exceptions.verification.ArgumentsAreDifferent -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCandidateDetails -->
+        <test-method signature="testListOfCandidatesAfterInsertion()[pri:0, instance:test.CandidateControllerTest@562919fe]" started-at="2023-07-09T18:21:50 IST" name="testListOfCandidatesAfterInsertion" finished-at="2023-07-09T18:21:50 IST" duration-ms="21" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.springframework.validation.BindingResult.hasErrors()" because "bindingResult" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.springframework.validation.BindingResult.hasErrors()" because "bindingResult" is null
+at controllers.CandidateController.listOfCandidatesAfterInsertion(CandidateController.java:85)
+at test.CandidateControllerTest.testListOfCandidatesAfterInsertion(CandidateControllerTest.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListOfCandidatesAfterInsertion -->
+        <test-method signature="testShowCandidateList()[pri:0, instance:test.CandidateControllerTest@562919fe]" started-at="2023-07-09T18:21:50 IST" name="testShowCandidateList" finished-at="2023-07-09T18:21:50 IST" duration-ms="17" status="FAIL">
+          <exception class="org.mockito.exceptions.verification.ArgumentsAreDifferent">
+            <message>
+              <![CDATA[
+Argument(s) are different! Wanted:
+modelMapper.map(
+    <any List>,
+    <any>
+);
+-> at test.CandidateControllerTest.testShowCandidateList(CandidateControllerTest.java:58)
+Actual invocation has different arguments:
+modelMapper.map(
+    models.Candidate@767d9b9,
+    class models.input.output.CandidateIO
+);
+-> at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Argument(s) are different! Wanted:
+modelMapper.map(
+    <any List>,
+    <any>
+);
+-> at test.CandidateControllerTest.testShowCandidateList(CandidateControllerTest.java:58)
+Actual invocation has different arguments:
+modelMapper.map(
+    models.Candidate@767d9b9,
+    class models.input.output.CandidateIO
+);
+-> at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
+
+at test.CandidateControllerTest.testShowCandidateList(CandidateControllerTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.mockito.exceptions.verification.ArgumentsAreDifferent -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShowCandidateList -->
+      </class> <!-- test.CandidateControllerTest -->
+      <class name="test.ApplyPermissionDAOImplTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:48 IST" name="setUp" finished-at="2023-07-09T18:21:48 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCountMandHolidays()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testCountMandHolidays" finished-at="2023-07-09T15:52:57 IST" duration-ms="123" status="PASS">
+        <test-method signature="testAppliedPermissions()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:48 IST" name="testAppliedPermissions" finished-at="2023-07-09T18:21:48 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppliedPermissions -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:48 IST" name="setUp" finished-at="2023-07-09T18:21:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetEmployeeAndPermissionRequestData()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:48 IST" name="testGetEmployeeAndPermissionRequestData" finished-at="2023-07-09T18:21:49 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeeAndPermissionRequestData -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="setUp" finished-at="2023-07-09T18:21:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetEmployeeAndPermissionRequestDataCountPerMonth()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="testGetEmployeeAndPermissionRequestDataCountPerMonth" finished-at="2023-07-09T18:21:49 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeeAndPermissionRequestDataCountPerMonth -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="setUp" finished-at="2023-07-09T18:21:49 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetEmployeeAndPermissionRequestData_NoResult()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="testGetEmployeeAndPermissionRequestData_NoResult" finished-at="2023-07-09T18:21:49 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeeAndPermissionRequestData_NoResult -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="setUp" finished-at="2023-07-09T18:21:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetEmployeeApprovedPermissionsCount()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="testGetEmployeeApprovedPermissionsCount" finished-at="2023-07-09T18:21:49 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeeApprovedPermissionsCount -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="setUp" finished-at="2023-07-09T18:21:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetEmployeesByHRAndManager()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="testGetEmployeesByHRAndManager" finished-at="2023-07-09T18:21:49 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeesByHRAndManager -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="setUp" finished-at="2023-07-09T18:21:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetNextPermissionIndex()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="testGetNextPermissionIndex" finished-at="2023-07-09T18:21:49 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNextPermissionIndex -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="setUp" finished-at="2023-07-09T18:21:49 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetPermissionByIdAndIndex()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="testGetPermissionByIdAndIndex" finished-at="2023-07-09T18:21:49 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPermissionByIdAndIndex -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="setUp" finished-at="2023-07-09T18:21:49 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetPermissionByIdAndIndex_NoResult()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="testGetPermissionByIdAndIndex_NoResult" finished-at="2023-07-09T18:21:49 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPermissionByIdAndIndex_NoResult -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="setUp" finished-at="2023-07-09T18:21:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPersist()[pri:0, instance:test.ApplyPermissionDAOImplTest@1ac6dd3d]" started-at="2023-07-09T18:21:49 IST" name="testPersist" finished-at="2023-07-09T18:21:49 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPersist -->
+      </class> <!-- test.ApplyPermissionDAOImplTest -->
+      <class name="test.EmployeeDAOImplTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="setup" finished-at="2023-07-09T18:21:50 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetAllEmployees()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="testGetAllEmployees" finished-at="2023-07-09T18:21:50 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllEmployees -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="setup" finished-at="2023-07-09T18:21:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetEmployee()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="testGetEmployee" finished-at="2023-07-09T18:21:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployee -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="setup" finished-at="2023-07-09T18:21:50 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetEmployeeById()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="testGetEmployeeById" finished-at="2023-07-09T18:21:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeeById -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="setup" finished-at="2023-07-09T18:21:50 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetEmployeeParametersById()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="testGetEmployeeParametersById" finished-at="2023-07-09T18:21:50 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeeParametersById -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="setup" finished-at="2023-07-09T18:21:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetEmployeesByHRAndManager()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="testGetEmployeesByHRAndManager" finished-at="2023-07-09T18:21:50 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeesByHRAndManager -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="setup" finished-at="2023-07-09T18:21:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInsertEmployee()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="testInsertEmployee" finished-at="2023-07-09T18:21:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertEmployee -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="setup" finished-at="2023-07-09T18:21:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpdateEmployee()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="testUpdateEmployee" finished-at="2023-07-09T18:21:50 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateEmployee -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="setup" finished-at="2023-07-09T18:21:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpdateEmployeeStatus()[pri:0, instance:test.EmployeeDAOImplTest@794f11cd]" started-at="2023-07-09T18:21:50 IST" name="testUpdateEmployeeStatus" finished-at="2023-07-09T18:21:50 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateEmployeeStatus -->
+      </class> <!-- test.EmployeeDAOImplTest -->
+      <class name="test.TestEmploymentInductionDocDAOImpl">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.TestEmploymentInductionDocDAOImpl@715f45c6]" started-at="2023-07-09T18:21:50 IST" name="setUp" finished-at="2023-07-09T18:21:50 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddEmploymentInductionDocument()[pri:0, instance:test.TestEmploymentInductionDocDAOImpl@715f45c6]" started-at="2023-07-09T18:21:50 IST" name="testAddEmploymentInductionDocument" finished-at="2023-07-09T18:21:50 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmploymentInductionDocument -->
+        <test-method signature="testGetAllDocuments()[pri:0, instance:test.TestEmploymentInductionDocDAOImpl@715f45c6]" started-at="2023-07-09T18:21:50 IST" name="testGetAllDocuments" finished-at="2023-07-09T18:21:50 IST" duration-ms="21" status="FAIL">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 4 out of bounds for length 4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+at DAO.EmploymentInductionDocDAOImpl.getAllDocuments(EmploymentInductionDocDAOImpl.java:53)
+at test.TestEmploymentInductionDocDAOImpl.testGetAllDocuments(TestEmploymentInductionDocDAOImpl.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllDocuments -->
+      </class> <!-- test.TestEmploymentInductionDocDAOImpl -->
+      <class name="test.EmployeeAttendanceServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:50 IST" name="setUp" finished-at="2023-07-09T18:21:51 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCalculateAttendance()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="testCalculateAttendance" finished-at="2023-07-09T18:21:51 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateAttendance -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="setUp" finished-at="2023-07-09T18:21:51 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testConvertToDateTime_WhenCellContainsDateTime_ReturnsDateTimeValue()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="testConvertToDateTime_WhenCellContainsDateTime_ReturnsDateTimeValue" finished-at="2023-07-09T18:21:51 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertToDateTime_WhenCellContainsDateTime_ReturnsDateTimeValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="setUp" finished-at="2023-07-09T18:21:51 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testConvertToDateTime_WhenCellDoesNotContainDateTime_ReturnsNull()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="testConvertToDateTime_WhenCellDoesNotContainDateTime_ReturnsNull" finished-at="2023-07-09T18:21:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertToDateTime_WhenCellDoesNotContainDateTime_ReturnsNull -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="setUp" finished-at="2023-07-09T18:21:51 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetAvgPunchInAndOut_WithNoPunchData_ReturnsEmptyList()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="testGetAvgPunchInAndOut_WithNoPunchData_ReturnsEmptyList" finished-at="2023-07-09T18:21:51 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAvgPunchInAndOut_WithNoPunchData_ReturnsEmptyList -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="setUp" finished-at="2023-07-09T18:21:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetAvgPunchInAndOut_WithValidData_ReturnsAveragePunchInAndOutTimes()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="testGetAvgPunchInAndOut_WithValidData_ReturnsAveragePunchInAndOutTimes" finished-at="2023-07-09T18:21:51 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAvgPunchInAndOut_WithValidData_ReturnsAveragePunchInAndOutTimes -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="setUp" finished-at="2023-07-09T18:21:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetYears()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="testGetYears" finished-at="2023-07-09T18:21:51 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetYears -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="setUp" finished-at="2023-07-09T18:21:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetYesterdayPunchData()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="testGetYesterdayPunchData" finished-at="2023-07-09T18:21:51 IST" duration-ms="47" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [09:00 am] but found [09:00 AM]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [09:00 am] but found [09:00 AM]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at test.EmployeeAttendanceServiceTest.testGetYesterdayPunchData(EmployeeAttendanceServiceTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetYesterdayPunchData -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="setUp" finished-at="2023-07-09T18:21:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsertEmployeeAttendance()[pri:0, instance:test.EmployeeAttendanceServiceTest@5d5c41e5]" started-at="2023-07-09T18:21:51 IST" name="testInsertEmployeeAttendance" finished-at="2023-07-09T18:21:51 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertEmployeeAttendance -->
+      </class> <!-- test.EmployeeAttendanceServiceTest -->
+      <class name="test.EmployeeLeaveServiceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="setup" finished-at="2023-07-09T18:21:52 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCalculateLeavesTakenBetweenDates()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="testCalculateLeavesTakenBetweenDates" finished-at="2023-07-09T18:21:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateLeavesTakenBetweenDates -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="setup" finished-at="2023-07-09T18:21:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCalculateLeavesTakenBetweenDatesWithNullDates()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="testCalculateLeavesTakenBetweenDatesWithNullDates" finished-at="2023-07-09T18:21:52 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateLeavesTakenBetweenDatesWithNullDates -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="setup" finished-at="2023-07-09T18:21:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCalculateLeavesTakenBetweenDatesWithSameDate()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="testCalculateLeavesTakenBetweenDatesWithSameDate" finished-at="2023-07-09T18:21:52 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateLeavesTakenBetweenDatesWithSameDate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="setup" finished-at="2023-07-09T18:21:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCalculateLeavesTaken_NoLeaves()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="testCalculateLeavesTaken_NoLeaves" finished-at="2023-07-09T18:21:52 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateLeavesTaken_NoLeaves -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="setup" finished-at="2023-07-09T18:21:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCalculateLeavesTaken_PendingLeaves()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="testCalculateLeavesTaken_PendingLeaves" finished-at="2023-07-09T18:21:52 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateLeavesTaken_PendingLeaves -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="setup" finished-at="2023-07-09T18:21:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCalculateLeavesTaken_WithLeaves()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="testCalculateLeavesTaken_WithLeaves" finished-at="2023-07-09T18:21:52 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateLeavesTaken_WithLeaves -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="setup" finished-at="2023-07-09T18:21:52 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSendEmail()[pri:0, instance:test.EmployeeLeaveServiceTest@499ee966]" started-at="2023-07-09T18:21:52 IST" name="testSendEmail" finished-at="2023-07-09T18:21:52 IST" duration-ms="196" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "service_interfaces.MailServiceInterface.sendLeaveRequestMail(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, models.input.output.EmployeeLeaveInputModel, String, String)" because "this.mailService" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "service_interfaces.MailServiceInterface.sendLeaveRequestMail(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, models.input.output.EmployeeLeaveInputModel, String, String)" because "this.mailService" is null
+at service.EmployeeLeaveService.sendEmail(EmployeeLeaveService.java:130)
+at test.EmployeeLeaveServiceTest.testSendEmail(EmployeeLeaveServiceTest.java:229)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendEmail -->
+      </class> <!-- test.EmployeeLeaveServiceTest -->
+      <class name="test.OfferLetterDAOImplTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:51 IST" name="setUp" finished-at="2023-07-09T18:21:52 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindAllIssuedCandidates()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:52 IST" name="testFindAllIssuedCandidates" finished-at="2023-07-09T18:21:52 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllIssuedCandidates -->
+        <test-method signature="testFindAllProvidedCandidates()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:52 IST" name="testFindAllProvidedCandidates" finished-at="2023-07-09T18:21:52 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllProvidedCandidates -->
+        <test-method signature="testFindIdtyIdByTitle()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:52 IST" name="testFindIdtyIdByTitle" finished-at="2023-07-09T18:21:52 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindIdtyIdByTitle -->
+        <test-method signature="testGetAllDocuments()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:52 IST" name="testGetAllDocuments" finished-at="2023-07-09T18:21:52 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllDocuments -->
+        <test-method signature="testGetCandidateById()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:52 IST" name="testGetCandidateById" finished-at="2023-07-09T18:21:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCandidateById -->
+        <test-method signature="testGetHrById()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:52 IST" name="testGetHrById" finished-at="2023-07-09T18:21:52 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHrById -->
+        <test-method signature="testGetInductionDocuments()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:52 IST" name="testGetInductionDocuments" finished-at="2023-07-09T18:21:52 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetInductionDocuments -->
+        <test-method signature="testGetLatestEofrIdFromDatabase()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:52 IST" name="testGetLatestEofrIdFromDatabase" finished-at="2023-07-09T18:21:52 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLatestEofrIdFromDatabase -->
+        <test-method signature="testInsertEofrInto()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:52 IST" name="testInsertEofrInto" finished-at="2023-07-09T18:21:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertEofrInto -->
+        <test-method signature="testUpdateCandidateStatus()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:52 IST" name="testUpdateCandidateStatus" finished-at="2023-07-09T18:21:52 IST" duration-ms="25" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.Integer.intValue()" because the return value of "models.Candidate.getCandId()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "models.Candidate.getCandId()" is null
+at DAO.OfferLetterDAOImpl.updateCandidateStatus(OfferLetterDAOImpl.java:92)
+at test.OfferLetterDAOImplTest.testUpdateCandidateStatus(OfferLetterDAOImplTest.java:123)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateCandidateStatus -->
+        <test-method signature="testUpdateEmploymentOfferDocuments()[pri:0, instance:test.OfferLetterDAOImplTest@42e4e589]" started-at="2023-07-09T18:21:52 IST" name="testUpdateEmploymentOfferDocuments" finished-at="2023-07-09T18:21:52 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateEmploymentOfferDocuments -->
+      </class> <!-- test.OfferLetterDAOImplTest -->
+      <class name="test.PayRollServiceImplTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="setUp" finished-at="2023-07-09T18:21:51 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCalculateAdditions()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculateAdditions" finished-at="2023-07-09T18:21:51 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateAdditions -->
+        <test-method signature="testCalculateBasicPay()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculateBasicPay" finished-at="2023-07-09T18:21:51 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateBasicPay -->
+        <test-method signature="testCalculateDA()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculateDA" finished-at="2023-07-09T18:21:51 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateDA -->
+        <test-method signature="testCalculateDeductions()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculateDeductions" finished-at="2023-07-09T18:21:51 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateDeductions -->
+        <test-method signature="testCalculateESI()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculateESI" finished-at="2023-07-09T18:21:51 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateESI -->
+        <test-method signature="testCalculateGratuity()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculateGratuity" finished-at="2023-07-09T18:21:51 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateGratuity -->
+        <test-method signature="testCalculateHRA()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculateHRA" finished-at="2023-07-09T18:21:51 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateHRA -->
+        <test-method signature="testCalculateNetPay()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculateNetPay" finished-at="2023-07-09T18:21:51 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateNetPay -->
+        <test-method signature="testCalculatePF()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculatePF" finished-at="2023-07-09T18:21:51 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculatePF -->
+        <test-method signature="testCalculateTA()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculateTA" finished-at="2023-07-09T18:21:51 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTA -->
+        <test-method signature="testCalculateTax()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculateTax" finished-at="2023-07-09T18:21:51 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTax -->
+        <test-method signature="testCalculateTotalPay()[pri:0, instance:test.PayRollServiceImplTest@43245559]" started-at="2023-07-09T18:21:51 IST" name="testCalculateTotalPay" finished-at="2023-07-09T18:21:51 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTotalPay -->
+      </class> <!-- test.PayRollServiceImplTest -->
+      <class name="test.PermissionsControllerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PermissionsControllerTest@76f2dad9]" started-at="2023-07-09T18:21:52 IST" name="setUp" finished-at="2023-07-09T18:21:52 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAcceptPermission_Success()[pri:0, instance:test.PermissionsControllerTest@76f2dad9]" started-at="2023-07-09T18:21:52 IST" name="testAcceptPermission_Success" finished-at="2023-07-09T18:21:53 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcceptPermission_Success -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PermissionsControllerTest@76f2dad9]" started-at="2023-07-09T18:21:53 IST" name="setUp" finished-at="2023-07-09T18:21:53 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminViewPermissionRequests()[pri:0, instance:test.PermissionsControllerTest@76f2dad9]" started-at="2023-07-09T18:21:53 IST" name="testAdminViewPermissionRequests" finished-at="2023-07-09T18:21:53 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminViewPermissionRequests -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PermissionsControllerTest@76f2dad9]" started-at="2023-07-09T18:21:53 IST" name="setUp" finished-at="2023-07-09T18:21:53 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetPermissionsCount_Success()[pri:0, instance:test.PermissionsControllerTest@76f2dad9]" started-at="2023-07-09T18:21:53 IST" name="testGetPermissionsCount_Success" finished-at="2023-07-09T18:21:53 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPermissionsCount_Success -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PermissionsControllerTest@76f2dad9]" started-at="2023-07-09T18:21:53 IST" name="setUp" finished-at="2023-07-09T18:21:53 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetPermissionsStatusAtEmp_Success()[pri:0, instance:test.PermissionsControllerTest@76f2dad9]" started-at="2023-07-09T18:21:53 IST" name="testGetPermissionsStatusAtEmp_Success" finished-at="2023-07-09T18:21:53 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPermissionsStatusAtEmp_Success -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PermissionsControllerTest@76f2dad9]" started-at="2023-07-09T18:21:53 IST" name="setUp" finished-at="2023-07-09T18:21:53 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRejectPermission_Success()[pri:0, instance:test.PermissionsControllerTest@76f2dad9]" started-at="2023-07-09T18:21:53 IST" name="testRejectPermission_Success" finished-at="2023-07-09T18:21:53 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRejectPermission_Success -->
+      </class> <!-- test.PermissionsControllerTest -->
+      <class name="test.CandidateDAOImplTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CandidateDAOImplTest@171dc7c3]" started-at="2023-07-09T18:21:53 IST" name="setUp" finished-at="2023-07-09T18:21:53 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetAllCandidates()[pri:0, instance:test.CandidateDAOImplTest@171dc7c3]" started-at="2023-07-09T18:21:53 IST" name="testGetAllCandidates" finished-at="2023-07-09T18:21:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllCandidates -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CandidateDAOImplTest@171dc7c3]" started-at="2023-07-09T18:21:53 IST" name="setUp" finished-at="2023-07-09T18:21:53 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetCandidateById()[pri:0, instance:test.CandidateDAOImplTest@171dc7c3]" started-at="2023-07-09T18:21:53 IST" name="testGetCandidateById" finished-at="2023-07-09T18:21:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCandidateById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CandidateDAOImplTest@171dc7c3]" started-at="2023-07-09T18:21:53 IST" name="setUp" finished-at="2023-07-09T18:21:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSaveCandidate()[pri:0, instance:test.CandidateDAOImplTest@171dc7c3]" started-at="2023-07-09T18:21:53 IST" name="testSaveCandidate" finished-at="2023-07-09T18:21:53 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveCandidate -->
+      </class> <!-- test.CandidateDAOImplTest -->
+      <class name="test.TestEmploymentInductionDocumentService">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.TestEmploymentInductionDocumentService@72b0a004]" started-at="2023-07-09T18:21:53 IST" name="setUp" finished-at="2023-07-09T18:21:53 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCandidateInductionDocument()[pri:0, instance:test.TestEmploymentInductionDocumentService@72b0a004]" started-at="2023-07-09T18:21:53 IST" name="testAddCandidateInductionDocument" finished-at="2023-07-09T18:21:53 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCandidateInductionDocument -->
+        <test-method signature="testGetAllDocuments()[pri:0, instance:test.TestEmploymentInductionDocumentService@72b0a004]" started-at="2023-07-09T18:21:53 IST" name="testGetAllDocuments" finished-at="2023-07-09T18:21:53 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllDocuments -->
+      </class> <!-- test.TestEmploymentInductionDocumentService -->
+      <class name="test.TestReferenceDocumentServiceImpl">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.TestReferenceDocumentServiceImpl@4cdba2ed]" started-at="2023-07-09T18:21:53 IST" name="setUp" finished-at="2023-07-09T18:21:53 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddReferenceDocument()[pri:0, instance:test.TestReferenceDocumentServiceImpl@4cdba2ed]" started-at="2023-07-09T18:21:53 IST" name="testAddReferenceDocument" finished-at="2023-07-09T18:21:53 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddReferenceDocument -->
+        <test-method signature="testDeleteReferenceDocument()[pri:0, instance:test.TestReferenceDocumentServiceImpl@4cdba2ed]" started-at="2023-07-09T18:21:53 IST" name="testDeleteReferenceDocument" finished-at="2023-07-09T18:21:53 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteReferenceDocument -->
+        <test-method signature="testGetAllDocuments()[pri:0, instance:test.TestReferenceDocumentServiceImpl@4cdba2ed]" started-at="2023-07-09T18:21:53 IST" name="testGetAllDocuments" finished-at="2023-07-09T18:21:53 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllDocuments -->
+        <test-method signature="testGetReferenceDocumentById()[pri:0, instance:test.TestReferenceDocumentServiceImpl@4cdba2ed]" started-at="2023-07-09T18:21:53 IST" name="testGetReferenceDocumentById" finished-at="2023-07-09T18:21:53 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetReferenceDocumentById -->
+      </class> <!-- test.TestReferenceDocumentServiceImpl -->
+      <class name="test.TestEmploymentInductionService">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.TestEmploymentInductionService@2c1f8dbd]" started-at="2023-07-09T18:21:53 IST" name="setUp" finished-at="2023-07-09T18:21:54 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetAllEmploymentOffers()[pri:0, instance:test.TestEmploymentInductionService@2c1f8dbd]" started-at="2023-07-09T18:21:54 IST" name="testGetAllEmploymentOffers" finished-at="2023-07-09T18:21:54 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllEmploymentOffers -->
+        <test-method signature="testGetId()[pri:0, instance:test.TestEmploymentInductionService@2c1f8dbd]" started-at="2023-07-09T18:21:54 IST" name="testGetId" finished-at="2023-07-09T18:21:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetId -->
+        <test-method signature="testGetStatusById()[pri:0, instance:test.TestEmploymentInductionService@2c1f8dbd]" started-at="2023-07-09T18:21:54 IST" name="testGetStatusById" finished-at="2023-07-09T18:21:54 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStatusById -->
+      </class> <!-- test.TestEmploymentInductionService -->
+      <class name="test.PayRollDAOImplTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.PayRollDAOImplTest@55c57422]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetEmployeePayslipsByEmployeeId()[pri:0, instance:test.PayRollDAOImplTest@55c57422]" started-at="2023-07-09T18:21:54 IST" name="testGetEmployeePayslipsByEmployeeId" finished-at="2023-07-09T18:21:54 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeePayslipsByEmployeeId -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.PayRollDAOImplTest@55c57422]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetEmployeePayslipsByEmployeeIdAndMonthYear()[pri:0, instance:test.PayRollDAOImplTest@55c57422]" started-at="2023-07-09T18:21:54 IST" name="testGetEmployeePayslipsByEmployeeIdAndMonthYear" finished-at="2023-07-09T18:21:54 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeePayslipsByEmployeeIdAndMonthYear -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.PayRollDAOImplTest@55c57422]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInsertEmployeePayslip()[pri:0, instance:test.PayRollDAOImplTest@55c57422]" started-at="2023-07-09T18:21:54 IST" name="testInsertEmployeePayslip" finished-at="2023-07-09T18:21:54 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertEmployeePayslip -->
+      </class> <!-- test.PayRollDAOImplTest -->
+      <class name="test.HolidayControllerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayControllerTest@22825e1e]" started-at="2023-07-09T18:21:54 IST" name="setUp" finished-at="2023-07-09T18:21:54 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDisplayEmployeeInformation()[pri:0, instance:test.HolidayControllerTest@22825e1e]" started-at="2023-07-09T18:21:54 IST" name="testDisplayEmployeeInformation" finished-at="2023-07-09T18:21:54 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayEmployeeInformation -->
+        <test-method signature="testDisplayEmployeeInformation_ThrowsEmployeeNotFoundException()[pri:0, instance:test.HolidayControllerTest@22825e1e]" started-at="2023-07-09T18:21:54 IST" name="testDisplayEmployeeInformation_ThrowsEmployeeNotFoundException" finished-at="2023-07-09T18:21:54 IST" duration-ms="4" status="PASS">
+          <exception class="exceptions.EmployeeNotFoundException">
+            <message>
+              <![CDATA[Employee not found with ID: 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[exceptions.EmployeeNotFoundException: Employee not found with ID: 1
+at controllers.HolidayController.displayEmployeeInformation(HolidayController.java:141)
+at test.HolidayControllerTest.testDisplayEmployeeInformation_ThrowsEmployeeNotFoundException(HolidayControllerTest.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- exceptions.EmployeeNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayEmployeeInformation_ThrowsEmployeeNotFoundException -->
+        <test-method signature="testShowHolidays()[pri:0, instance:test.HolidayControllerTest@22825e1e]" started-at="2023-07-09T18:21:54 IST" name="testShowHolidays" finished-at="2023-07-09T18:21:54 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShowHolidays -->
+        <test-method signature="testSubmitSelectedHolidays()[pri:0, instance:test.HolidayControllerTest@22825e1e]" started-at="2023-07-09T18:21:54 IST" name="testSubmitSelectedHolidays" finished-at="2023-07-09T18:21:54 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitSelectedHolidays -->
+      </class> <!-- test.HolidayControllerTest -->
+      <class name="test.OfferLetterControllerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.OfferLetterControllerTest@63fd4dda]" started-at="2023-07-09T18:21:54 IST" name="setUp" finished-at="2023-07-09T18:21:54 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetIssuingCandidates()[pri:0, instance:test.OfferLetterControllerTest@63fd4dda]" started-at="2023-07-09T18:21:54 IST" name="testGetIssuingCandidates" finished-at="2023-07-09T18:21:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetIssuingCandidates -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.OfferLetterControllerTest@63fd4dda]" started-at="2023-07-09T18:21:54 IST" name="setUp" finished-at="2023-07-09T18:21:54 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetOfferLetterProvidedCandidates()[pri:0, instance:test.OfferLetterControllerTest@63fd4dda]" started-at="2023-07-09T18:21:54 IST" name="testGetOfferLetterProvidedCandidates" finished-at="2023-07-09T18:21:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOfferLetterProvidedCandidates -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.OfferLetterControllerTest@63fd4dda]" started-at="2023-07-09T18:21:54 IST" name="setUp" finished-at="2023-07-09T18:21:54 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSendOfferMail()[pri:0, instance:test.OfferLetterControllerTest@63fd4dda]" started-at="2023-07-09T18:21:54 IST" name="testSendOfferMail" finished-at="2023-07-09T18:21:54 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendOfferMail -->
+      </class> <!-- test.OfferLetterControllerTest -->
+      <class name="test.TestInductionDAOImpl">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetAllEmploymentOffers()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="testGetAllEmploymentOffers" finished-at="2023-07-09T18:21:54 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllEmploymentOffers -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetAllInductions()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="testGetAllInductions" finished-at="2023-07-09T18:21:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllInductions -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetCountOfOfferIdentity()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="testGetCountOfOfferIdentity" finished-at="2023-07-09T18:21:54 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCountOfOfferIdentity -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetEmployeeOfferedIdMaxMap()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="testGetEmployeeOfferedIdMaxMap" finished-at="2023-07-09T18:21:54 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "javax.persistence.TypedQuery.setParameter(String, Object)" because "typedQuery" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "javax.persistence.TypedQuery.setParameter(String, Object)" because "typedQuery" is null
+at DAO.InductionDAOImpl.getCountOfOfferIdentity(InductionDAOImpl.java:108)
+at test.TestInductionDAOImpl.testGetEmployeeOfferedIdMaxMap(TestInductionDAOImpl.java:168)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeeOfferedIdMaxMap -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetEmploymentInductionDocCount()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="testGetEmploymentInductionDocCount" finished-at="2023-07-09T18:21:54 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmploymentInductionDocCount -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetEmploymentInductionDocCountMap()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="testGetEmploymentInductionDocCountMap" finished-at="2023-07-09T18:21:54 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "javax.persistence.TypedQuery.setParameter(String, Object)" because "typedQuery" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "javax.persistence.TypedQuery.setParameter(String, Object)" because "typedQuery" is null
+at DAO.InductionDAOImpl.getEmploymentInductionDocCount(InductionDAOImpl.java:131)
+at test.TestInductionDAOImpl.testGetEmploymentInductionDocCountMap(TestInductionDAOImpl.java:207)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmploymentInductionDocCountMap -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetIndex()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="testGetIndex" finished-at="2023-07-09T18:21:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetIndex -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetInductionById()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="testGetInductionById" finished-at="2023-07-09T18:21:54 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetInductionById -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInsertEmployee()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="testInsertEmployee" finished-at="2023-07-09T18:21:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertEmployee -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="setup" finished-at="2023-07-09T18:21:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInsertEmployeeWithNullInduction()[pri:0, instance:test.TestInductionDAOImpl@335f5c69]" started-at="2023-07-09T18:21:54 IST" name="testInsertEmployeeWithNullInduction" finished-at="2023-07-09T18:21:54 IST" duration-ms="7" status="PASS">
+          <exception class="exceptions.CustomException">
+            <message>
+              <![CDATA[Custom exception message]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[exceptions.CustomException: Custom exception message
+at DAO.InductionDAOImpl.insertEmployee(InductionDAOImpl.java:51)
+at test.TestInductionDAOImpl.testInsertEmployeeWithNullInduction(TestInductionDAOImpl.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- exceptions.CustomException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertEmployeeWithNullInduction -->
+      </class> <!-- test.TestInductionDAOImpl -->
+      <class name="test.HolidayDAOImplTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:54 IST" name="setUp" finished-at="2023-07-09T18:21:55 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCountMandHolidays()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="testCountMandHolidays" finished-at="2023-07-09T18:21:55 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountMandHolidays -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="setUp" finished-at="2023-07-09T18:21:55 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFindAllGradeHolidays()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testFindAllGradeHolidays" finished-at="2023-07-09T15:52:57 IST" duration-ms="8" status="PASS">
+        <test-method signature="testFindAllGradeHolidays()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="testFindAllGradeHolidays" finished-at="2023-07-09T18:21:55 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindAllGradeHolidays -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="setUp" finished-at="2023-07-09T18:21:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFindAllHolidays()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testFindAllHolidays" finished-at="2023-07-09T15:52:57 IST" duration-ms="12" status="PASS">
+        <test-method signature="testFindAllHolidays()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="testFindAllHolidays" finished-at="2023-07-09T18:21:55 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindAllHolidays -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="setUp" finished-at="2023-07-09T18:21:55 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFindAllOptedHolidays()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testFindAllOptedHolidays" finished-at="2023-07-09T15:52:57 IST" duration-ms="14" status="PASS">
+        <test-method signature="testFindAllOptedHolidays()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="testFindAllOptedHolidays" finished-at="2023-07-09T18:21:55 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindAllOptedHolidays -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="setUp" finished-at="2023-07-09T18:21:55 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFindHolidayById()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testFindHolidayById" finished-at="2023-07-09T15:52:57 IST" duration-ms="10" status="PASS">
+        <test-method signature="testFindHolidayById()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="testFindHolidayById" finished-at="2023-07-09T18:21:55 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindHolidayById -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="setUp" finished-at="2023-07-09T18:21:55 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetAllJobGradesInfo()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testGetAllJobGradesInfo" finished-at="2023-07-09T15:52:57 IST" duration-ms="9" status="PASS">
+        <test-method signature="testGetAllJobGradesInfo()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="testGetAllJobGradesInfo" finished-at="2023-07-09T18:21:55 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllJobGradesInfo -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="setUp" finished-at="2023-07-09T18:21:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSaveJobGrade()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testSaveJobGrade" finished-at="2023-07-09T15:52:57 IST" duration-ms="5" status="PASS">
+        <test-method signature="testSaveJobGrade()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="testSaveJobGrade" finished-at="2023-07-09T18:21:55 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveJobGrade -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="setUp" finished-at="2023-07-09T18:21:55 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSaveJobGradeHoliday()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testSaveJobGradeHoliday" finished-at="2023-07-09T15:52:57 IST" duration-ms="4" status="PASS">
+        <test-method signature="testSaveJobGradeHoliday()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="testSaveJobGradeHoliday" finished-at="2023-07-09T18:21:55 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveJobGradeHoliday -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="setUp" finished-at="2023-07-09T18:21:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testUpdateJobGradeHoliday()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testUpdateJobGradeHoliday" finished-at="2023-07-09T15:52:57 IST" duration-ms="3" status="PASS">
+        <test-method signature="testUpdateJobGradeHoliday()[pri:0, instance:test.HolidayDAOImplTest@1d6751e3]" started-at="2023-07-09T18:21:55 IST" name="testUpdateJobGradeHoliday" finished-at="2023-07-09T18:21:55 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateJobGradeHoliday -->

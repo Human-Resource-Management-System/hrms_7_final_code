@@ -58,19 +58,13 @@ public class PayRollController {
 		modelMapper = mp;
 	}
 
-	// get admin side pay roll form to select employee id and month
-	@RequestMapping(value = "/getemppayroll", method = RequestMethod.GET)
-	public String getPayRoll(Model model) {
-		logger.info("Entered into payroll at admin side");
+	//this will display the payroll generation form at admin side 
 
-		return "payrollemp";
-
-	}
 
 	@RequestMapping(value = "/getemppayrolls", method = RequestMethod.GET)
 	public String generatePayRoll(Model model) {
 		logger.info("Entered into payroll at admin side");
-		List<Employee> employees = emp.getAllEmployees();
+		List<Employee> employees = emp.getAllEmployees(); // to get the list of all employees
 		List<EmployeeOutput> employeeOutputs = modelMapper.map(employees, new TypeToken<List<EmployeeOutput>>() {
 		}.getType());
 		model.addAttribute("employeeList", employeeOutputs);

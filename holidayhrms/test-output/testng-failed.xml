@@ -3,12 +3,45 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.HolidayDAOImplTest">
+      <class name="test.EmployeeAttendanceServiceTest">
         <methods>
-          <include name="testGetAllJobGradesInfo"/>
+          <include name="testGetYesterdayPunchData"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- test.HolidayDAOImplTest -->
+      </class> <!-- test.EmployeeAttendanceServiceTest -->
+      <class name="test.TestInductionDAOImpl">
+        <methods>
+          <include name="setup"/>
+          <include name="testGetEmploymentInductionDocCountMap"/>
+          <include name="testGetEmployeeOfferedIdMaxMap"/>
+        </methods>
+      </class> <!-- test.TestInductionDAOImpl -->
+      <class name="test.TestEmploymentInductionDocDAOImpl">
+        <methods>
+          <include name="testGetAllDocuments"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.TestEmploymentInductionDocDAOImpl -->
+      <class name="test.CandidateControllerTest">
+        <methods>
+          <include name="testShowCandidateList"/>
+          <include name="setup"/>
+          <include name="testListOfCandidatesAfterInsertion"/>
+          <include name="testGetCandidateDetails"/>
+        </methods>
+      </class> <!-- test.CandidateControllerTest -->
+      <class name="test.EmployeeLeaveServiceTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testSendEmail"/>
+        </methods>
+      </class> <!-- test.EmployeeLeaveServiceTest -->
+      <class name="test.OfferLetterDAOImplTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testUpdateCandidateStatus"/>
+        </methods>
+      </class> <!-- test.OfferLetterDAOImplTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

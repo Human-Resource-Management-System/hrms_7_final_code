@@ -10,11 +10,12 @@ import javax.persistence.TypedQuery;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+import DAO_Interfaces.LoginDAOInterface;
 import models.Admin;
 import models.Employee;
 
 @Component
-public class EmpDAO {
+public class LoginDAO implements LoginDAOInterface{
 
 	@PersistenceContext
 	private EntityManager em;

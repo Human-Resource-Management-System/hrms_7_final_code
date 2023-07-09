@@ -1,198 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-09T11:08:12 IST" name="Default suite" finished-at="2023-07-09T11:08:14 IST" duration-ms="1347">
+  <suite started-at="2023-07-09T15:52:54 IST" name="Default suite" finished-at="2023-07-09T15:52:57 IST" duration-ms="2985">
     <groups>
     </groups>
-    <test started-at="2023-07-09T11:08:12 IST" name="Default test" finished-at="2023-07-09T11:08:14 IST" duration-ms="1347">
-      <class name="test.CandidateControllerTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.CandidateControllerTest@b91d8c4]" started-at="2023-07-09T11:08:13 IST" name="setup" finished-at="2023-07-09T11:08:14 IST" duration-ms="1105" status="PASS">
+    <test started-at="2023-07-09T15:52:54 IST" name="Default test" finished-at="2023-07-09T15:52:57 IST" duration-ms="2985">
+      <class name="test.HolidayDAOImplTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:54 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="2598" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testAddCandidates()[pri:0, instance:test.CandidateControllerTest@b91d8c4]" started-at="2023-07-09T11:08:14 IST" name="testAddCandidates" finished-at="2023-07-09T11:08:14 IST" duration-ms="27" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="testCountMandHolidays()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testCountMandHolidays" finished-at="2023-07-09T15:52:57 IST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddCandidates -->
-        <test-method signature="testGetCandidateDetails()[pri:0, instance:test.CandidateControllerTest@b91d8c4]" started-at="2023-07-09T11:08:14 IST" name="testGetCandidateDetails" finished-at="2023-07-09T11:08:14 IST" duration-ms="69" status="FAIL">
-          <exception class="org.mockito.exceptions.verification.ArgumentsAreDifferent">
-            <message>
-              <![CDATA[
-Argument(s) are different! Wanted:
-modelMapper.map(
-    <any List>,
-    <any>
-);
--> at test.CandidateControllerTest.testGetCandidateDetails(CandidateControllerTest.java:77)
-Actual invocation has different arguments:
-modelMapper.map(
-    models.Candidate@1effd53c,
-    class models.input.output.CandidateIO
-);
--> at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[Argument(s) are different! Wanted:
-modelMapper.map(
-    <any List>,
-    <any>
-);
--> at test.CandidateControllerTest.testGetCandidateDetails(CandidateControllerTest.java:77)
-Actual invocation has different arguments:
-modelMapper.map(
-    models.Candidate@1effd53c,
-    class models.input.output.CandidateIO
-);
--> at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
-
-at test.CandidateControllerTest.testGetCandidateDetails(CandidateControllerTest.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.mockito.exceptions.verification.ArgumentsAreDifferent -->
+        </test-method> <!-- testCountMandHolidays -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetCandidateDetails -->
-        <test-method signature="testListOfCandidatesAfterInsertion()[pri:0, instance:test.CandidateControllerTest@b91d8c4]" started-at="2023-07-09T11:08:14 IST" name="testListOfCandidatesAfterInsertion" finished-at="2023-07-09T11:08:14 IST" duration-ms="18" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.springframework.validation.BindingResult.hasErrors()" because "bindingResult" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.springframework.validation.BindingResult.hasErrors()" because "bindingResult" is null
-at controllers.CandidateController.listOfCandidatesAfterInsertion(CandidateController.java:85)
-at test.CandidateControllerTest.testListOfCandidatesAfterInsertion(CandidateControllerTest.java:101)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindAllGradeHolidays()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testFindAllGradeHolidays" finished-at="2023-07-09T15:52:57 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testListOfCandidatesAfterInsertion -->
-        <test-method signature="testShowCandidateList()[pri:0, instance:test.CandidateControllerTest@b91d8c4]" started-at="2023-07-09T11:08:14 IST" name="testShowCandidateList" finished-at="2023-07-09T11:08:14 IST" duration-ms="6" status="FAIL">
-          <exception class="org.mockito.exceptions.verification.ArgumentsAreDifferent">
-            <message>
-              <![CDATA[
-Argument(s) are different! Wanted:
-modelMapper.map(
-    <any List>,
-    <any>
-);
--> at test.CandidateControllerTest.testShowCandidateList(CandidateControllerTest.java:58)
-Actual invocation has different arguments:
-modelMapper.map(
-    models.Candidate@1effd53c,
-    class models.input.output.CandidateIO
-);
--> at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[Argument(s) are different! Wanted:
-modelMapper.map(
-    <any List>,
-    <any>
-);
--> at test.CandidateControllerTest.testShowCandidateList(CandidateControllerTest.java:58)
-Actual invocation has different arguments:
-modelMapper.map(
-    models.Candidate@1effd53c,
-    class models.input.output.CandidateIO
-);
--> at controllers.CandidateController.getCandidateDetails(CandidateController.java:64)
-
-at test.CandidateControllerTest.testShowCandidateList(CandidateControllerTest.java:58)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.mockito.exceptions.verification.ArgumentsAreDifferent -->
+        </test-method> <!-- testFindAllGradeHolidays -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testShowCandidateList -->
-      </class> <!-- test.CandidateControllerTest -->
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindAllHolidays()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testFindAllHolidays" finished-at="2023-07-09T15:52:57 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllHolidays -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindAllOptedHolidays()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testFindAllOptedHolidays" finished-at="2023-07-09T15:52:57 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllOptedHolidays -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindHolidayById()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testFindHolidayById" finished-at="2023-07-09T15:52:57 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindHolidayById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetAllJobGradesInfo()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testGetAllJobGradesInfo" finished-at="2023-07-09T15:52:57 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllJobGradesInfo -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSaveJobGrade()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testSaveJobGrade" finished-at="2023-07-09T15:52:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveJobGrade -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSaveJobGradeHoliday()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testSaveJobGradeHoliday" finished-at="2023-07-09T15:52:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveJobGradeHoliday -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="setUp" finished-at="2023-07-09T15:52:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateJobGradeHoliday()[pri:0, instance:test.HolidayDAOImplTest@78b7f805]" started-at="2023-07-09T15:52:57 IST" name="testUpdateJobGradeHoliday" finished-at="2023-07-09T15:52:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateJobGradeHoliday -->
+      </class> <!-- test.HolidayDAOImplTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

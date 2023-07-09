@@ -14,8 +14,9 @@ import models.EmploymentOfferDocument;
 import models.HrmsEmploymentOffer;
 import models.InductionDocumentTypes;
 import models.OfferModel;
+import service_interfaces.OfferLetterServiceInterface;
 
-public class OfferLetterService {
+public class OfferLetterService implements OfferLetterServiceInterface{
 	private final Logger logger = LoggerFactory.getLogger(OfferLetterService.class);
 
 	private OfferLetterDAO offerLetterDAO;

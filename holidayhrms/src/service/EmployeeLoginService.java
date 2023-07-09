@@ -6,21 +6,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import DAO.EmpDAO;
+import DAO.LoginDAO;
 import DAO.ForgotPasswordDAOImpl;
 import models.Admin;
 import models.Employee;
 import models.EntityForgotPassword;
+import service_interfaces.EmployeeLoginServiceInterface;
 
 @Component
-public class EmployeeLoginService {
+public class EmployeeLoginService implements EmployeeLoginServiceInterface {
 
 	private final Logger logger = LoggerFactory.getLogger(EmployeeLoginService.class);
-	private EmpDAO empdao;
+	private LoginDAO empdao;
 	private ForgotPasswordDAOImpl forgotPassword;
 
 	@Autowired
-	EmployeeLoginService(ForgotPasswordDAOImpl forgotPassword, EmpDAO empdao) {
+	EmployeeLoginService(ForgotPasswordDAOImpl forgotPassword, LoginDAO empdao) {
 		this.forgotPassword = forgotPassword;
 		this.empdao = empdao;
 	}

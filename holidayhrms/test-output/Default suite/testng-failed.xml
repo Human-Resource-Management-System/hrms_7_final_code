@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.CandidateControllerTest">
+      <class name="test.HolidayDAOImplTest">
         <methods>
-          <include name="testShowCandidateList"/>
-          <include name="setup"/>
-          <include name="testListOfCandidatesAfterInsertion"/>
-          <include name="testGetCandidateDetails"/>
+          <include name="testGetAllJobGradesInfo"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- test.CandidateControllerTest -->
+      </class> <!-- test.HolidayDAOImplTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

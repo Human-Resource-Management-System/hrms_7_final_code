@@ -7,14 +7,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import DAO.EmpDAO;
+import DAO.LoginDAO;
 import models.Employee;
 
 @Component
 public class EmpService {
 
 	@Autowired
-	private EmpDAO empdao;
+	private LoginDAO empdao;
 
 	@Transactional
 	public void add(Employee emp) {

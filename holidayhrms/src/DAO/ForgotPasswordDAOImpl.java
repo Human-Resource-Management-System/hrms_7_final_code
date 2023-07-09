@@ -12,11 +12,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import DAO_Interfaces.ForgotPasswordDAOInterface;
 import models.Employee;
 import models.EntityForgotPassword;
 
 @Repository
-public class ForgotPasswordDAOImpl {
+public class ForgotPasswordDAOImpl implements ForgotPasswordDAOInterface {
 	private final Logger logger = LoggerFactory.getLogger(ForgotPasswordDAOImpl.class);
 
 	@Autowired
